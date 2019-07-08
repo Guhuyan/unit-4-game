@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Crystal Collector</title>
+</head>
+<body>
+    
+    <div class="header">
+        <h1>Crystals Collectors!</h1>
+    </div>
+
+    <div class="rules">
+        <p>The game will give you a target number at the start of the game.</p>
+        <p>If you could get your score to the target number, you win!</p>
+        <p>Below are four different-color crystals.  Clicking on a crystal will reward you with a set amount of points.</p>
+        <p>The points value on each crystal is randomized on every new round.</p>
+        <p>Get your points value to the target number to win!</p>
+    </div>
+
+    <div class="flex-container">
+        <div class="points" id="pointValue">
+            0
+        </div>
+            
+        <div class="tracker">
+            <div class="wins" id="wins">
+            Wins: 0
+            </div>
+            <div class="loses" id="loses">
+            Loses: 0
+            </div>
+            <div class="message" id="message">
+                
+            </div>
+        </div>
+    </div>
+    
+    <div class="crystals">
+        <img src="assets/images/red.png" class="crystal-img" id="redCrystal" alt="Red Crystal Image">
+        <img src="assets/images/blue.png" class="crystal-img" id="blueCrystal" alt="Blue Crystal Image">
+        <img src="assets/images/yellow.png" class="crystal-img" id="yellowCrystal" alt="Yellow Crystal Image">
+        <img src="assets/images/green.png" class="crystal-img" id="greenCrystal" alt="Green Crystal Image">
+    </div>
+
+    <div class="score-title">
+        <p>Your total score is: </p>
+    </div>
+
+    <div class="score-area">
+        
+    </div>
+
+</body>
+</html>
